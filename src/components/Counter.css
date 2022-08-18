@@ -1,0 +1,72 @@
+.counter {
+}
+
+.counter__lower-controls {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter__button:first-of-type {
+  margin-right: 8px;
+}
+
+.counter__button:last-of-type {
+  margin-left: 8px;
+}
+
+.counter__title {
+  font-size: 3em;
+  font-weight: normal;
+  margin-bottom: 8px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.counter__count {
+  font-size: 6em;
+  font-weight: bold;
+  margin-top: 56px;
+  text-align: center;
+}
+
+.counter__upper-controls {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 16px;
+}
+
+.counter__input-label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-weight: bold;
+  width: 100%;
+}
+
+.counter__input-container {
+  display: flex;
+  width: 100%;
+}
+
+.counter__input {
+  padding: 8px 16px;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+  border: none;
+  flex-grow: 1;
+}
+
+.counter__reset-interval {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.counter__controls-layout {
+  display: flex;
+  flex-direction: column;
+}
