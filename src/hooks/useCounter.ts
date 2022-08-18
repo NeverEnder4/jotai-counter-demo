@@ -19,7 +19,7 @@ export const useCounter = (
   const [interval, setInterval] = useAtom(intervalAtom);
   const resetInterval = useResetAtom(intervalAtom);
 
-  // Set initial count or interval once if the number differes from the default initial state
+  // Set initial count or interval once if the number differs from the default initial state
   useEffect(() => {
     if (initialCount !== INITIAL_STATE) setCount(initialCount);
     if (initialInterval !== INITIAL_INTERVAL) setInterval(initialInterval);
